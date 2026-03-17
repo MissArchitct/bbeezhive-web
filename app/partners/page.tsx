@@ -5,7 +5,7 @@ import { useState } from 'react'
 
 export default function PartnersPage() {
   const [hiveKey, setHiveKey] = useState('')
-  const [linkedPartner, setLinkedPartner] = useState<string | null>(null)
+  const [_linkedPartner, setLinkedPartner] = useState<string | null>(null)
 
   const partners = [
     {
