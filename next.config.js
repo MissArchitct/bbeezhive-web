@@ -1,7 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  swcMinify: true,
   images: {
     unoptimized: true,
   },
@@ -11,6 +10,7 @@ const nextConfig = {
   eslint: {
     ignoreDuringBuilds: false,
   },
+  staticPageGenerationTimeout: 120,
 };
 
 module.exports = nextConfig;

@@ -1,10 +1,8 @@
 'use client'
 
 import Link from 'next/link'
-import { useState } from 'react'
 
 export default function ProPage() {
-  const [selectedPlan, setSelectedPlan] = useState('pro')
 
   const features = [
     { name: 'Ghost-Fi Security', pro: true, enterprise: true, icon: '🔒' },

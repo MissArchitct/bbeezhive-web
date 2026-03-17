@@ -5,7 +5,6 @@ import { useState } from 'react'
 
 export default function PartnersPage() {
   const [hiveKey, setHiveKey] = useState('')
-  const [linkedPartner, setLinkedPartner] = useState<string | null>(null)
 
   const partners = [
     {
@@ -37,7 +36,7 @@ export default function PartnersPage() {
   const handleLinkPartner = (e: React.FormEvent) => {
     e.preventDefault()
     if (hiveKey.trim()) {
-      setLinkedPartner(hiveKey)
+      // Partner linking would be handled here
       setHiveKey('')
     }
   }
