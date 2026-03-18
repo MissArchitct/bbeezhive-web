@@ -1,4 +1,3 @@
-'use client'
 
 import Link from 'next/link'
 import { useState } from 'react'
@@ -95,7 +94,7 @@ export default function MarketplacePage() {
   }, 0)
 
   return (
-    <main className="min-h-screen bg-dark-gradient">
+    <div className="min-h-screen bg-dark-gradient">
       {/* Navigation */}
       <nav className="sticky top-0 z-50 glass border-b border-laser-pink/20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
@@ -192,6 +191,6 @@ export default function MarketplacePage() {
           </div>
         </div>
       </div>
-    </main>
+    </div>
   )
 }

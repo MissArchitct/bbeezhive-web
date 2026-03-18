@@ -1,4 +1,3 @@
-'use client'
 
 import Link from 'next/link'
 import { useState } from 'react'
@@ -33,7 +32,7 @@ export default function SignupPage() {
   }
 
   return (
-    <main className="min-h-screen bg-dark-gradient flex items-center justify-center py-12">
+    <div className="min-h-screen bg-dark-gradient flex items-center justify-center py-12">
       <div className="w-full max-w-md">
         {/* Logo */}
         <div className="text-center mb-8">
@@ -174,6 +173,6 @@ export default function SignupPage() {
           </Link>
         </div>
       </div>
-    </main>
+    </div>
   )
 }

@@ -1,4 +1,3 @@
-'use client'
 
 import Link from 'next/link'
 import { useState } from 'react'
@@ -19,7 +18,7 @@ export default function LoginPage() {
   }
 
   return (
-    <main className="min-h-screen bg-dark-gradient flex items-center justify-center">
+    <div className="min-h-screen bg-dark-gradient flex items-center justify-center">
       <div className="w-full max-w-md">
         {/* Logo */}
         <div className="text-center mb-8">
@@ -116,6 +115,6 @@ export default function LoginPage() {
           </Link>
         </div>
       </div>
-    </main>
+    </div>
   )
 }
